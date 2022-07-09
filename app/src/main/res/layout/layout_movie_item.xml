@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/movieNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:text="IRON MAN" />
+
+    <TextView
+        android:id="@+id/movieGenreTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        tools:text="FICTION" />
+
+    <ImageView
+        android:id="@+id/bannerImg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="Movie"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+</LinearLayout>
